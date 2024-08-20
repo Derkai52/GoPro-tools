@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
         }
 
         // 显示视频帧
-        cv::imshow("Video Stream", frame);
+        cv::imshow("GoPro Video Stream", frame);
 
         // 按下 'q' 键退出循环
         if (cv::waitKey(1) >= 0) {

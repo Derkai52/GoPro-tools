@@ -12,9 +12,16 @@
 bash ./build.sh
 
 cd build
-# 开启推流
+# 开启相机推流
 ./stream -s
 
-# 关闭推流
+# 捕获网络视频流并显示(等待片刻会可视化显示出来)
+./video_stream_reader
+
+# 关闭相机推流
 ./stream -e
 ```
+
+## 网络推流可视化结果
+
+![GoPro 网络推流可视化结果](./gopro_video.png)
